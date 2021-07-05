@@ -3,13 +3,13 @@ package com.alario.ct.common.bean;
 /**
  * @author alario
  */
-public class Data implements  Val{
+public abstract class Data implements  Val{
     public String content;
 
-    public void setString(String value){
-        content=value;
+    public void setValue(Object val){
+        content=(String) val;
     }
-    @Override
+
     public Object getValue() {
         return null;
     }

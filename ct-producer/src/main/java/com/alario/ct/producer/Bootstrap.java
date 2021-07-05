@@ -1,6 +1,5 @@
 package com.alario.ct.producer;
 
-import com.alario.ct.common.bean.Producer;
 import com.alario.ct.producer.bean.LocalFileProducer;
 import com.alario.ct.producer.io.LocalFileDataIn;
 import com.alario.ct.producer.io.LocalFileDataOut;
