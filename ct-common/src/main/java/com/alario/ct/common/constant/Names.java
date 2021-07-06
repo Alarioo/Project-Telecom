@@ -14,7 +14,11 @@ public enum Names implements Val {
     private Names (String name){
         this.name=name;
     }
-    @Override
+
+    public void setValue(Object val) {
+        this.name=(String) val;
+    }
+
     public Object getValue() {
         return null;
     }
